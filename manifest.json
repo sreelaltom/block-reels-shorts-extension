@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Redirect Reels and Shorts",
+  "version": "1.0",
+  "description": "Redirects Instagram Reels and YouTube Shorts to motivational videos.",
+  "permissions": ["tabs"],
+  "host_permissions": [
+    "*://www.instagram.com/reels/*",
+    "*://www.youtube.com/shorts/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Reel Redirector"
+  },
+  "icons": {
+    "128": "icons/icon126.jpg"
+  }
+}
